@@ -11,7 +11,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity
+@Enti
 @Table(name = "connections")
 public class Connection {
     @Id
