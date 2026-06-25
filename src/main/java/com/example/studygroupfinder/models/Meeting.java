@@ -12,19 +12,23 @@ import java.util.Date;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name="members")
-public class Member {
+@Table(name="meetings")
+public class Meeting {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int memberId;
+    private int meetingId;
     @JoinColumn(name = "group_id")
     private Group groupId;
-    @JoinColumn(name = "user_id")
-    private User userId;
-    @JoinColumn(name = "role_id")
-    private Role roleId;
+    @JoinColumn(name = "host_id")
+    private Member hostId;
     @NotBlank
-    private String status;
+    private String meetingUrl;
+    @NotBlank
+    private String agenda;
     @Temporal(TemporalType.DATE)
-    private Date joinedOn;
+    private Date startsOn;
+    @Temporal(TemporalType.DATE)
+    private Date endsOn;
+    @Temporal(TemporalType.DATE)
+    private Date expiresOn;
 }

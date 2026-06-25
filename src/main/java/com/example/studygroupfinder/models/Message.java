@@ -1,7 +1,6 @@
 package com.example.studygroupfinder.models;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,19 +11,18 @@ import java.util.Date;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name="members")
-public class Member {
+@Table(name="messages")
+public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int memberId;
-    @JoinColumn(name = "group_id")
+    private int messaeId;
+    @JoinColumn(name="group_id")
     private Group groupId;
-    @JoinColumn(name = "user_id")
-    private User userId;
-    @JoinColumn(name = "role_id")
-    private Role roleId;
-    @NotBlank
-    private String status;
+    @JoinColumn(name="sender_id")
+    private Member senderId;
+    private String messageText;
     @Temporal(TemporalType.DATE)
-    private Date joinedOn;
+    private Date sentAt;
+    @Temporal(TemporalType.DATE)
+    private Date editedAt;
 }
