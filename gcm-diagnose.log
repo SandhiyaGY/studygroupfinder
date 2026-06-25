@@ -1,0 +1,175 @@
+﻿Diagnose log at 2026-06-25T04:43:04Z
+
+AppPath: /usr/local/bin/git-credential-manager
+InstallDir: /usr/local/share/gcm-core/
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: macOS
+OSVersion: 15.5.0
+Reading environment variables... OK
+ Variables:
+CONDA_PYTHON_EXE=/opt/anaconda3/bin/python
+HOMEBREW_REPOSITORY=/opt/homebrew
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+CONDA_DEFAULT_ENV=base
+ZDOTDIR=/Users/saraswathy
+SHELL=/bin/zsh
+USER_ZDOTDIR=/Users/saraswathy
+VSCODE_GIT_ASKPASS_MAIN=/private/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/AppTranslocation/1D75FEA8-6843-4136-864E-CDACEC5CA12C/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+COLORTERM=truecolor
+TERM_PROGRAM=vscode
+OLDPWD=/Users/saraswathy/Desktop/studygroupfinder
+GIT_EXEC_PATH=/Applications/Xcode.app/Contents/Developer/usr/libexec/git-core
+PATH=/Applications/Xcode.app/Contents/Developer/usr/libexec/git-core:/Users/saraswathy/.pyenv/shims:/opt/homebrew/opt/python@3.10/bin:/opt/homebrew/opt/python@3.10/bin:/opt/homebrew/opt/python@3.10/bin:/Users/saraswathy/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/saraswathy/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/saraswathy/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/saraswathy/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Users/saraswathy/.local/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/opt/python@3.10/bin:/Users/saraswathy/flutter/bin:/Users/saraswathy/flutter/bin
+XPC_FLAGS=0x0
+VSCODE_PROFILE_INITIALIZED=1
+COMMAND_MODE=unix2003
+LANG=en_US.UTF-8
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+PWD=/Users/saraswathy/Desktop/studygroupfinder
+GIT_TRACE2_PARENT_SID=ba86d70b-b934-4ddb-8480-20eddcd0d894
+CONDA_PROMPT_MODIFIER=(base) 
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ELpVc3dLiS/Listeners
+PYENV_SHELL=zsh
+HOMEBREW_CELLAR=/opt/homebrew/Cellar
+LOGNAME=saraswathy
+LIBRARY_PATH=/usr/local/lib
+SHLVL=1
+VSCODE_GIT_ASKPASS_NODE=/private/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/AppTranslocation/1D75FEA8-6843-4136-864E-CDACEC5CA12C/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+GIT_ASKPASS=/private/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/AppTranslocation/1D75FEA8-6843-4136-864E-CDACEC5CA12C/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+VSCODE_INJECTION=1
+USER=saraswathy
+XPC_SERVICE_NAME=0
+PYENV_ROOT=/Users/saraswathy/.pyenv
+INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+MANPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
+HOME=/Users/saraswathy
+CPATH=/usr/local/include
+_=/usr/bin/git
+FPATH=/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions
+_CE_CONDA=
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+_CE_M=
+CONDA_SHLVL=1
+GSETTINGS_SCHEMA_DIR=/opt/anaconda3/share/glib-2.0/schemas
+SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+MallocNanoZone=0
+HOMEBREW_PREFIX=/opt/homebrew
+TERM=xterm-256color
+__CFBundleIdentifier=com.microsoft.VSCode
+CONDA_PREFIX=/opt/anaconda3
+TMPDIR=/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/
+VSCODE_GIT_IPC_HANDLE=/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/vscode-git-f8862f14cd.sock
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+CONDA_EXE=/opt/anaconda3/bin/conda
+TERM_PROGRAM_VERSION=1.108.2
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/'...
+Checking basic file I/O...
+Writing to temporary file '/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/9e2d4fe8a9907e88779fbb87'... OK
+Reading from temporary file '/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/9e2d4fe8a9907e88779fbb87'... OK
+Deleting temporary file '/var/folders/y3/hc6j7pls6g97q3038lxfw2wh0000gn/T/9e2d4fe8a9907e88779fbb87'... OK
+Testing IFileSystem instance...
+UserHomePath: /Users/saraswathy
+UserDataDirectoryPath: /Users/saraswathy/.gcm
+GetCurrentDirectory(): /Users/saraswathy/Desktop/studygroupfinder
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:50465/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.39.5 (Apple Git-154)'
+Locating current repository...Git repository at '/Users/saraswathy/Desktop/studygroupfinder/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/Applications/Xcode.app/Contents/Developer/usr/share/git-core/gitconfig	credential.helper=osxkeychain
+file:/Applications/Xcode.app/Contents/Developer/usr/share/git-core/gitconfig	init.defaultbranch=main
+file:/Users/saraswathy/.gitconfig	credential.helper=
+file:/Users/saraswathy/.gitconfig	credential.helper=/usr/local/share/gcm-core/git-credential-manager
+file:/Users/saraswathy/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:/Users/saraswathy/.gitconfig	user.name=SandhiyaGY
+file:/Users/saraswathy/.gitconfig	user.email=your-email
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	core.precomposeunicode=true
+file:.git/config	remote.origin.url=https://github.com/SandhiyaGY/studygroupfinder.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /Users/saraswathy/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /Users/saraswathy/.local/.IdentityService/msal.cache
+MacKeyChainAccountName: MSALCache
+MacKeyChainServiceName: Microsoft.Developer.IdentityService
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
